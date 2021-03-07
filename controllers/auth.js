@@ -27,6 +27,8 @@ exports.signup = (req, res) => {
   });
 };
 
+// signin added
+
 exports.signin = (req, res) => {
   const errors = validationResult(req);
   const { email, password } = req.body;
